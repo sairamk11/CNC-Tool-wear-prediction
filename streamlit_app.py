@@ -93,7 +93,7 @@ st.markdown(
 )
 st.markdown(
     """
-    <h2 style='font-size: 28px;'>📌 Overview</h2>
+    <h2 style='font-size: 28px; color: green'>📌 Overview</h2>
     <p style='font-size: 20px;'>
     This project focuses on analyzing <b>CNC milling machine performance</b> and detecting faults using <b>deep learning techniques</b>. 
     The primary objective is to predict:
