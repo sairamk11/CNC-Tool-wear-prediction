@@ -19,14 +19,13 @@ def add_bg_from_local(image_path, blur_strength=5):
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            filter: blur({blur_strength}px);
         }}
         </style>
         """,
         unsafe_allow_html=True
     )
 
-add_bg_from_local("projectcncbackgroundimage.webp", blur_strength=8)
+add_bg_from_local("projectcncbackgroundimage.webp")
 
 
 # Load the trained LSTM model
