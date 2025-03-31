@@ -98,7 +98,7 @@ st.markdown(
     This project focuses on analyzing <b>CNC milling machine performance</b> and detecting faults using <b>deep learning techniques</b>. 
     The primary objective is to predict:
     </p>
-    <ul style='font-size: 23px;color: red'>
+    <ul style='font-size: 23px;color: brown'>
         <li>🛠 <b>Tool Condition</b> (Unworn/Worn)</li>
         <li>⚙️ <b>Machining Finalization</b> (Yes/No)</li>
         <li>🔍 <b>Passed Visual Inspection</b> (Yes/No)</li>
