@@ -94,16 +94,16 @@ st.markdown(
 st.markdown(
     """
     <h2 style='font-size: 28px; color: brown'>📌 Overview</h2>
-    <p style='font-size: 24px;'>
+    <p style='font-size: 24px;color: green'>
     This project focuses on analyzing <b>CNC milling machine performance</b> and detecting faults using <b>deep learning techniques</b>. 
     The primary objective is to predict:
     </p>
-    <ul style='font-size: 23px;color: purple'>
+    <ul style='font-size: 23px;color: orange'>
         <li>🛠 <b>Tool Condition</b> (Unworn/Worn)</li>
         <li>⚙️ <b>Machining Finalization</b> (Yes/No)</li>
         <li>🔍 <b>Passed Visual Inspection</b> (Yes/No)</li>
     </ul>
-    <p style='font-size: 20px;'>
+    <p style='font-size: 20px;color: green'>
     Using <b>LSTM-based deep learning models</b>, the project processes <b>sensor data</b> collected from CNC milling experiments. 
     The web app is built with <b>Streamlit</b> for an interactive experience.
     </p>
