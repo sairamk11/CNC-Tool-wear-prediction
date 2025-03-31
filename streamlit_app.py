@@ -7,10 +7,10 @@ from keras.models import load_model # type: ignore
 from sklearn.preprocessing import StandardScaler
 import base64
 
-def add_bg_from_local(image_path):
+def add_bg_from_local(image_path, blur_strength=5):
     with open(image_path, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read()).decode()
-    
+
     st.markdown(
         f"""
         <style>
@@ -19,13 +19,14 @@ def add_bg_from_local(image_path):
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
+            filter: blur({blur_strength}px);
         }}
         </style>
         """,
         unsafe_allow_html=True
     )
 
-add_bg_from_local(r"projectcncbackgroundimage.webp")
+add_bg_from_local("projectcncbackgroundimage.webp", blur_strength=8)
 
 
 # Load the trained LSTM model
