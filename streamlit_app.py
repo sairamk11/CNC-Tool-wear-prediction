@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import joblib
-from tensorflow.keras.models import load_model
+from keras.models import load_model # type: ignore
 from sklearn.preprocessing import StandardScaler
 import base64
 
