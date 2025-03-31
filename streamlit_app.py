@@ -104,7 +104,7 @@ st.markdown(
         <li>⚙️ <b>Machining Finalization</b> (Yes/No)</li>
         <li>🔍 <b>Passed Visual Inspection</b> (Yes/No)</li>
     </ul>
-    <p style='font-size: 20px;color: green'>
+    <p style='font-size: 20px;color: black'>
     Using <b>LSTM-based deep learning models</b>, the project processes <b>sensor data</b> collected from CNC milling experiments. 
     The web app is built with <b>Streamlit</b> for an interactive experience.
     </p>
