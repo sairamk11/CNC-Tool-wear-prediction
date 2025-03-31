@@ -87,7 +87,10 @@ def make_predictions(X):
     return pd.DataFrame(decoded_predictions)
 
 # Streamlit UI
-st.title("🔧 Tool Wear Prediction App")
+st.markdown(
+    "<h1 style='text-align: center; color: green; font-size: 60px;'>🔧 Tool Wear Prediction App</h1>", 
+    unsafe_allow_html=True
+)
 st.markdown(
     """
     ## 📌 Overview
